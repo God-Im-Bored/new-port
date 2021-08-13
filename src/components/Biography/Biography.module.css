@@ -1,0 +1,37 @@
+.paragraph {
+  display: block;
+  margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    box-sizing: inherit;
+    font-family: Raleway;
+    text-align: center; 
+    font-size: 13pt;
+}
+
+
+
+.avi {
+  transition: all 1s ease;
+  background-color: #1b1c1c;
+  background-position: center;
+  border-top-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  border: 5px solid #333333;
+  width: 45%;
+}
+
+.avi:hover {
+  filter: sepia(40%) grayscale(40%) hue-rotate(200deg);
+}
+
+
+
+.div {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 25px 0 55px 0;
+}
