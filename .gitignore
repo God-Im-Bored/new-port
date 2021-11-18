@@ -25,3 +25,5 @@ yarn-error.log*
 
 scratch.js
 server.js
+resume.pdf
+/src/components/Contact/resume.pdf

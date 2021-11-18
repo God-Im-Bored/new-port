@@ -8,6 +8,10 @@ export const skills = {
       img: "./assets/javascript.png",
       text: "JavaScript",
     },
+    {
+      img: "./assets/typescript.png",
+      text: "TypeScript"
+    }
   ],
   Frontend: [
     {
@@ -15,8 +19,8 @@ export const skills = {
       text: "React.js",
     },
     {
-      img: "./assets/redux.png",
-      text: "Redux.js",
+      img: "./assets/angularjs.png",
+      text: "Angular.js"
     },
     {
       img: "./assets/dash.png",
@@ -45,6 +49,10 @@ export const skills = {
       text: "NumPy",
     },
     {
+      img: "./assets/apollo.png",
+      text: "Apollo"
+    },
+    {
       img: "./assets/mat.png",
       text: "Matplotlib",
     },
@@ -56,7 +64,10 @@ export const skills = {
       img: "./assets/plotlyjs.png",
       text: "React-Plotly.js",
     },
-
+    {
+      img: "./assets/redux.png",
+      text: "Redux.js",
+    },
     {
       img: "./assets/plotly.png",
       text: "Plotly",
@@ -134,6 +145,10 @@ export const skills = {
     {
       img: "./assets/flask.png",
       text: "Flask",
+    },
+    {
+      img: "./assets/mongodb.png",
+      text: "MongoDB"
     },
     {
       img: "./assets/postgreesql.png",

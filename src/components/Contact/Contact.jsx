@@ -3,9 +3,14 @@ import { Container, makeStyles } from "@material-ui/core";
 import ContactForm from "./ContactForm";
 
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
+import DescriptionIcon from '@material-ui/icons/Description'
+
+import rez from './resume.pdf'
+
+console.log('res', rez)
+
 
 const useStyles = makeStyles({
   section: {
@@ -180,13 +185,15 @@ const Contact = () => {
             <div className={classes.icon}>
               <a
                 rel="noreferrer"
-                href="https://www.linkedin.com/in/aram-martin"
+                href={rez}
                 target="_blank"
               >
                 <div className={classes.img}>
-                  <LinkedInIcon className={classes.wrap} />
+                  <DescriptionIcon className={classes.wrap} />
+                  
+                  
                 </div>
-              </a>
+                </a>
             </div>
 
             <div className={classes.icon}>
