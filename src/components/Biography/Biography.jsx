@@ -67,7 +67,7 @@ const Biography = () => {
         <div className={classes.headerBar}></div>
 
         <div className={styles.div}>
-          <img id="avi" className={styles.avi} src="./assets/avi.png" alt="" />
+          <img id="avi" className={styles.avi} src="./assets/grey.jpeg" alt="" />
         </div>
 
         <div className={classes.para}>
