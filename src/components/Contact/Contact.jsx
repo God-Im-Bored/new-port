@@ -212,7 +212,7 @@ const Contact = () => {
           </div>
           <div className={classes.copyright}>
             <span>© </span>
-            <span className={classes.year}>2021 </span>
+            <span className={classes.year}>2022 </span>
             <span>Aram Martin. All rights reserved.</span>
           </div>
         </footer>
